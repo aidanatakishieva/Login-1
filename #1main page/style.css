@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(calculator.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.left-side {
+  margin-top: 10%;
+}
+.left-side h1{
+    color: rgba(66, 139, 139, 0.829);
+}
+.right-side{
+    display: flex;
+    justify-content: flex-end;
+}
+.right-side .btn {
+  height: 38px;
+  margin: 5px;
+  margin-right: 6px;
+  margin-top: 4%;
+}
+@media only screen and (max-width: 450px) {
+    body {
+     background-size: 90%;
+     margin-top: 32%;
+    }
+  .right-side{
+      text-align: center;
+  }
+  }
+
+
+  @media only screen and (max-width: 766px) {
+    body {
+     background-size: 90%;
+     margin-top: 32%;
+    }
+  .right-side{
+      text-align: center;
+  }
+  }
