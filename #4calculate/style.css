@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(calculator.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10%;
+}
+.logout {
+  margin-bottom: 15%;
+
+}
+.input {
+  width: 100%;
+}
+.result {
+  width: 50%;
+  margin-right: 100%;
+}
+.calculate {
+  margin-top: 25px;
+}
+form{
+    width: 60%  ;
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+      background-size: 90%;
+      margin-top: 60%;
+      margin-left: 15%;
+    }
+    .input {
+        width: 100%;
+      }
+      .result {
+        width: 50%;
+        /* margin-right: 100%; */
+      }
+    
+      form{
+          width: 100%  ;
+      }
+      
+}
