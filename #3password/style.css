@@ -1,0 +1,39 @@
+
+   body{
+       background-image: url(calculator.jpg);
+   }
+   .page-header{
+       color: rgba(17, 69, 78, 0.863);
+   font-weight: bold;}
+label{
+    margin: 10px;
+ 
+}
+#oldPassword{
+    margin: 25px;
+}
+.old{
+ margin-top: 30px; 
+
+}
+.input-group-first{
+    width: 117%;
+  
+}
+button{
+    margin-top: 10%;
+}
+ @media only screen and (max-width: 450px) {
+ button{
+     margin-top: 500px;
+ }
+ #oldPassword{
+    width:84%; 
+}
+.input-group{
+    margin: 20px;
+}
+.page-header{
+    margin: 10px;
+}
+} 
